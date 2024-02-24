@@ -48,7 +48,7 @@ export default function Component() {
   <RadixThemesThemePanel/>
   <RadixThemesFlex align={`center`} css={{"fontSize": "2em", "flexDirection": "column"}} gap={`7`}>
   <RadixThemesText as={`p`}>
-  {`Hola esto es una prueba de reflex que no funciona aun`}
+  {`Hola esto es una prueba de reflex que no funciona`}
 </RadixThemesText>
   <RadixThemesHeading size={`9`}>
   {`Welcome to Reflex!a`}
