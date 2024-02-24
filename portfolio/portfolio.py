@@ -19,11 +19,6 @@ def index() -> rx.Component:
             rx.text("Hola esto es una prueba de reflex que no funciona aun a"),
             rx.heading("Welcome to Reflex!a", size="9"),
             rx.text("Get started by editing ", rx.code(filename)),
-            rx.button(
-                "Check out our docs!",
-                on_click=lambda: rx.redirect(docs_url),
-                size="4",
-            ),
             align="center",
             spacing="7",
             font_size="2em",
