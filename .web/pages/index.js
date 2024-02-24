@@ -10,6 +10,18 @@ import NextHead from "next/head"
 
 
 
+export function Button_d474754a9d7f8322123330cf11ed7fd1 () {
+  const [addEvents, connectError] = useContext(EventLoopContext);
+
+  const on_click_123926a228ab954b33ec736733dffdba = useCallback((_e) => addEvents([Event("_redirect", {path:`https://reflex.dev/docs/getting-started/introduction`,external:false})], (_e), {}), [addEvents, Event])
+
+  return (
+    <RadixThemesButton onClick={on_click_123926a228ab954b33ec736733dffdba} size={`4`}>
+  {`Check out our docs!`}
+</RadixThemesButton>
+  )
+}
+
 export function Fragment_1762bb90abdb81b879b2a22edbbe01a1 () {
   const [addEvents, connectError] = useContext(EventLoopContext);
 
@@ -39,18 +51,6 @@ export function Fragment_1762bb90abdb81b879b2a22edbbe01a1 () {
   )
 }
 
-export function Button_d474754a9d7f8322123330cf11ed7fd1 () {
-  const [addEvents, connectError] = useContext(EventLoopContext);
-
-  const on_click_123926a228ab954b33ec736733dffdba = useCallback((_e) => addEvents([Event("_redirect", {path:`https://reflex.dev/docs/getting-started/introduction`,external:false})], (_e), {}), [addEvents, Event])
-
-  return (
-    <RadixThemesButton onClick={on_click_123926a228ab954b33ec736733dffdba} size={`4`}>
-  {`Check out our docs!`}
-</RadixThemesButton>
-  )
-}
-
 export default function Component() {
 
   return (
@@ -60,7 +60,7 @@ export default function Component() {
   <RadixThemesThemePanel/>
   <RadixThemesFlex align={`center`} css={{"fontSize": "2em", "flexDirection": "column"}} gap={`7`}>
   <RadixThemesText as={`p`}>
-  {`Hola esto es una prueba`}
+  {`Hola esto es una prueba de reflex`}
 </RadixThemesText>
   <RadixThemesHeading size={`9`}>
   {`Welcome to Reflex!a`}
