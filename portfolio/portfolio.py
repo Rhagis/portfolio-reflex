@@ -16,7 +16,7 @@ def index() -> rx.Component:
     return rx.center(
         rx.theme_panel(),
         rx.vstack(
-            rx.text("Hola esto es una prueba de reflex que no funciona"),
+            rx.text("Hola esto es una prueba de reflex que no funciona aun a"),
             rx.heading("Welcome to Reflex!a", size="9"),
             rx.text("Get started by editing ", rx.code(filename)),
             rx.button(
