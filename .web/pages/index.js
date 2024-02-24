@@ -4,7 +4,7 @@
 import { Fragment, useContext } from "react"
 import { EventLoopContext } from "/utils/context"
 import { Event, getBackendURL, isTrue } from "/utils/state"
-import { Code as RadixThemesCode, Dialog as RadixThemesDialog, Flex as RadixThemesFlex, Heading as RadixThemesHeading, Text as RadixThemesText, ThemePanel as RadixThemesThemePanel } from "@radix-ui/themes"
+import { Dialog as RadixThemesDialog, Flex as RadixThemesFlex, Text as RadixThemesText } from "@radix-ui/themes"
 import env from "/env.json"
 import NextHead from "next/head"
 
@@ -44,22 +44,16 @@ export default function Component() {
   return (
     <Fragment>
   <Fragment_1762bb90abdb81b879b2a22edbbe01a1/>
-  <RadixThemesFlex css={{"height": "100vh", "display": "flex", "alignItems": "center", "justifyContent": "center"}}>
-  <RadixThemesThemePanel/>
-  <RadixThemesFlex align={`center`} css={{"fontSize": "2em", "flexDirection": "column"}} gap={`7`}>
+  <RadixThemesFlex align={`start`} css={{"flexDirection": "column"}} gap={`2`}>
   <RadixThemesText as={`p`}>
-  {`Hola esto es una prueba de reflex que no funciona`}
+  {`hola`}
 </RadixThemesText>
-  <RadixThemesHeading size={`9`}>
-  {`Welcome to Reflex!a`}
-</RadixThemesHeading>
   <RadixThemesText as={`p`}>
-  {`Get started by editing `}
-  <RadixThemesCode>
-  {`portfolio/portfolio.py`}
-</RadixThemesCode>
+  {`esto es una prueba`}
 </RadixThemesText>
-</RadixThemesFlex>
+  <RadixThemesText as={`p`}>
+  {`Saludos, python`}
+</RadixThemesText>
 </RadixThemesFlex>
   <NextHead>
   <title>
