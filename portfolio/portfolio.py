@@ -17,7 +17,7 @@ def index() -> rx.Component:
                         
                         ),
                 ),
-            rx.text("Descripcion"),
+            rx.text("Soy Picasso Matias, soy docente, Desarrollador Web Full Stack y un apacionado por la ciencia. Tengo conocimientos principalmente de Python y nociones basicas de PHP y Javascript."),
             rx.hstack(
                 rx.link(
                     rx.button(
@@ -43,7 +43,12 @@ def index() -> rx.Component:
                 rx.section(
                     rx.vstack(    
                         rx.text("proyectos"),
-                        card("invasion espacial", 'https://github.com/Rhagis/Proyectos-Python/tree/main/Proyecto%20juego', 'invasion_espacial.png')
+                        rx.hstack( 
+                            card("invasion espacial", 'https://github.com/Rhagis/Proyectos-Python/tree/main/Proyecto%20juego', 'invasion_espacial.png'),
+                            card("invasion espacial", 'https://github.com/Rhagis/Proyectos-Python/tree/main/Proyecto%20juego', 'invasion_espacial.png'),
+                            card("invasion espacial", 'https://github.com/Rhagis/Proyectos-Python/tree/main/Proyecto%20juego', 'invasion_espacial.png'),
+                            card("invasion espacial", 'https://github.com/Rhagis/Proyectos-Python/tree/main/Proyecto%20juego', 'invasion_espacial.png'),
+                        ),
                     ),
                 ),
             ),

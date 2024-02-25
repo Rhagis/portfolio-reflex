@@ -48,15 +48,17 @@ export function Link_7962214d177576f565f25b9d8a8fc9cd () {
   )
 }
 
-export function Link_ff64b1a0c22d2133f851655d9b91a3cc () {
+export function Link_5d12ffa614f8e85130eb67a9658f9e80 () {
 
 
   return (
     <RadixThemesLink asChild={true} target={isTrue(true) ? `_blank` : ``}>
   <NextLink href={`https://github.com/Rhagis/Proyectos-Python/tree/main/Proyecto%20juego`} passHref={true}>
-  <RadixThemesText as={`p`}>
-  {`invasion espacial`}
-</RadixThemesText>
+  <RadixThemesButton>
+  <LucideGithubIcon css={{"color": "var(--current-color)"}}>
+  {`Github`}
+</LucideGithubIcon>
+</RadixThemesButton>
 </NextLink>
 </RadixThemesLink>
   )
@@ -75,7 +77,7 @@ export default function Component() {
 </RadixThemesText>
 </RadixThemesFlex>
   <RadixThemesText as={`p`}>
-  {`Descripcion`}
+  {`Soy Picasso Matias, soy docente, Desarrollador Web Full Stack y un apacionado por la ciencia. Tengo conocimientos principalmente de Python y nociones basicas de PHP y Javascript.`}
 </RadixThemesText>
   <RadixThemesFlex align={`start`} css={{"flexDirection": "row"}} gap={`2`}>
   <Link_7962214d177576f565f25b9d8a8fc9cd/>
@@ -92,10 +94,80 @@ export default function Component() {
   <RadixThemesText as={`p`}>
   {`proyectos`}
 </RadixThemesText>
-  <RadixThemesCard css={{"alignItem": "flex-start", "border": "none"}} size={`1`}>
-  <img src={`invasion_espacial.png`}/>
-  <Link_ff64b1a0c22d2133f851655d9b91a3cc/>
+  <RadixThemesFlex align={`start`} css={{"flexDirection": "row"}} gap={`2`}>
+  <RadixThemesFlex>
+  <RadixThemesCard css={{"alignItem": "flex-start", "border": "none", "width": "100%"}} size={`1`}>
+  <RadixThemesFlex align={`start`} css={{"flexDirection": "column"}} gap={`2`}>
+  <img css={{"width": "100%"}} src={`invasion_espacial.png`}/>
+  <RadixThemesFlex align={`start`} css={{"flexDirection": "column"}} gap={`2`}>
+  <RadixThemesFlex align={`start`} css={{"flexDirection": "row"}} gap={`2`}>
+  <RadixThemesText as={`p`} css={{"fontWeigth": "bold", "fontSize": "2em"}}>
+  {`INVASION ESPACIAL`}
+</RadixThemesText>
+  <Link_5d12ffa614f8e85130eb67a9658f9e80/>
+</RadixThemesFlex>
+  <RadixThemesText as={`p`}>
+  {`asddsa`}
+</RadixThemesText>
+</RadixThemesFlex>
+</RadixThemesFlex>
 </RadixThemesCard>
+</RadixThemesFlex>
+  <RadixThemesFlex>
+  <RadixThemesCard css={{"alignItem": "flex-start", "border": "none", "width": "100%"}} size={`1`}>
+  <RadixThemesFlex align={`start`} css={{"flexDirection": "column"}} gap={`2`}>
+  <img css={{"width": "100%"}} src={`invasion_espacial.png`}/>
+  <RadixThemesFlex align={`start`} css={{"flexDirection": "column"}} gap={`2`}>
+  <RadixThemesFlex align={`start`} css={{"flexDirection": "row"}} gap={`2`}>
+  <RadixThemesText as={`p`} css={{"fontWeigth": "bold", "fontSize": "2em"}}>
+  {`INVASION ESPACIAL`}
+</RadixThemesText>
+  <Link_5d12ffa614f8e85130eb67a9658f9e80/>
+</RadixThemesFlex>
+  <RadixThemesText as={`p`}>
+  {`asddsa`}
+</RadixThemesText>
+</RadixThemesFlex>
+</RadixThemesFlex>
+</RadixThemesCard>
+</RadixThemesFlex>
+  <RadixThemesFlex>
+  <RadixThemesCard css={{"alignItem": "flex-start", "border": "none", "width": "100%"}} size={`1`}>
+  <RadixThemesFlex align={`start`} css={{"flexDirection": "column"}} gap={`2`}>
+  <img css={{"width": "100%"}} src={`invasion_espacial.png`}/>
+  <RadixThemesFlex align={`start`} css={{"flexDirection": "column"}} gap={`2`}>
+  <RadixThemesFlex align={`start`} css={{"flexDirection": "row"}} gap={`2`}>
+  <RadixThemesText as={`p`} css={{"fontWeigth": "bold", "fontSize": "2em"}}>
+  {`INVASION ESPACIAL`}
+</RadixThemesText>
+  <Link_5d12ffa614f8e85130eb67a9658f9e80/>
+</RadixThemesFlex>
+  <RadixThemesText as={`p`}>
+  {`asddsa`}
+</RadixThemesText>
+</RadixThemesFlex>
+</RadixThemesFlex>
+</RadixThemesCard>
+</RadixThemesFlex>
+  <RadixThemesFlex>
+  <RadixThemesCard css={{"alignItem": "flex-start", "border": "none", "width": "100%"}} size={`1`}>
+  <RadixThemesFlex align={`start`} css={{"flexDirection": "column"}} gap={`2`}>
+  <img css={{"width": "100%"}} src={`invasion_espacial.png`}/>
+  <RadixThemesFlex align={`start`} css={{"flexDirection": "column"}} gap={`2`}>
+  <RadixThemesFlex align={`start`} css={{"flexDirection": "row"}} gap={`2`}>
+  <RadixThemesText as={`p`} css={{"fontWeigth": "bold", "fontSize": "2em"}}>
+  {`INVASION ESPACIAL`}
+</RadixThemesText>
+  <Link_5d12ffa614f8e85130eb67a9658f9e80/>
+</RadixThemesFlex>
+  <RadixThemesText as={`p`}>
+  {`asddsa`}
+</RadixThemesText>
+</RadixThemesFlex>
+</RadixThemesFlex>
+</RadixThemesCard>
+</RadixThemesFlex>
+</RadixThemesFlex>
 </RadixThemesFlex>
 </RadixThemesSection>
 </RadixThemesFlex>
